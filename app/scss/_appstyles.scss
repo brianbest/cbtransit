@@ -1,0 +1,129 @@
+/* all app scss styles here */
+
+
+
+
+@media #{$small-up} {
+
+  .first{
+
+    .row{
+      //padding-top: 15vh;
+      z-index: 9999;
+    }
+    h1,h3,p{
+      color:#fff;
+    }
+    background: #488a53;
+    //height: 100vh;
+    overflow: hidden
+  }
+
+  .textstart{
+    img{ width: 200px;  }
+  }
+
+  .titles{
+    overflow: auto;
+    padding-bottom: 1rem;
+    &:after{
+      clear:both;
+    }
+    img{
+      float: left;
+      width: 85px;
+      margin-right: 1rem;
+    }
+    div{
+      float: left;
+      display: inline-block;
+      h3{font-size: 1.4875rem;}
+
+    }
+  }
+
+  .btn_holder{
+    button{
+      background: transparent;
+      border: #fff solid 1px;
+      border-radius: 10px;
+      transition: all 0.3s;
+      i{margin-right: 15px;}
+      &:first-child{margin-right: 1rem;}
+      &:hover{
+        background: #ffffff;
+        color: #488a53;
+        i{color: #488a53;}
+      }
+    }
+  }
+
+  .mockup{
+    width: 277px;
+    height: 584px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+  }
+
+  .clip{
+    overflow: hidden;
+  }
+  footer{
+    position: relative;
+    bottom: 1rem;
+    width: 100%;
+    a{color:#fff;}
+  }
+
+}
+@media #{$small-only} { }
+
+@media #{$medium-up} {
+
+  .first{
+    .row{
+      padding-top: 15vh;
+    }
+    height: 100vh;
+  }
+
+  .textstart{ padding-top: 4rem;}
+
+  .titles{
+    overflow: auto;
+    padding-bottom: 1rem;
+    &:after{
+      clear:both;
+    }
+    img{
+      float: left;
+      width: 140px;
+      margin-right: 1rem;
+    }
+    div{
+      float: left;
+      display: inline-block;
+      h3{font-size: 1.4875rem;}
+
+    }
+  }
+
+  footer{
+    position: fixed;
+    bottom: 1rem;
+    width: 100%;
+    a{color:#fff;}
+  }
+
+}
+@media #{$medium-only} { }
+
+@media #{$large-up} { }
+@media #{$large-only} { }
+
+@media #{$xlarge-up} { }
+@media #{$xlarge-only} { }
+
+@media #{$xxlarge-up} { }
+@media #{$xxlarge-only} { }
