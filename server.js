@@ -10,6 +10,6 @@ app.get('/', function (req, res) {
     res.send('index.html')
 })
 
-var server = app.listen(3000, function () {
+var server = app.listen(80, function () {
 
 })
